@@ -1,5 +1,3 @@
 # projetos
- iniciante
-fvmdsvmlsdf
-h2
-oi papa
+Projetos pessoais de um iniciante, ou seja, não espere muito mas todo inicio é assim :D
+
