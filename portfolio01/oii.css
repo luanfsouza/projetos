@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+#content 
+{
+    margin: 0 auto;
+    width: 950px;
+
+    /* this is the real deal: */
+    /* background: url("img/content_left.png") top left repeat-y; */
+
+    /* this is just for the example */
+    border-left: 1px solid black;
+
+    height: auto !important;
+    height: 100%; /* IE 6 Workaround */
+    min-height: 100%;
+}
+
+#content .wrapper
+{
+
+    /* this is the real deal: */
+    /* background: url("img/content_right.png") top right repeat-y; */
+
+    /* this is just for the example */
+    border-right: 1px solid black;
+
+    height: auto !important;
+    height: 100%; /* IE 6 Workaround */
+    min-height: 100%;
+}
+

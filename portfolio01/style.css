@@ -1,0 +1,86 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    background-color: #f0d6e0;
+}
+header {
+    background-color: #e12929;
+    min-width: 100px;
+    max-width: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 0px 20px;
+    
+}
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header a:hover {
+    color: black;
+    transition: 0.5s;
+}
+li {
+    list-style: none;
+    padding: 30px;
+
+}
+
+.perfil img {  
+    padding-top: 30px;
+    width: 319px;
+}
+.contato img {
+    min-width: 30px;
+    max-width: 50px;
+}
+.contato {
+    padding: 40px;
+}
+main {
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    border-radius: 0px 0px 20px 0px;
+
+}
+main h1, p{
+    color: #e12929
+}
+main h2 {
+    color: white;
+    background-color: #e12929;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+main a {
+    text-decoration: none;
+    color: white;
+}
+main p {
+    padding-top: 12px;
+}
+main a:hover {
+    color: rgb(242, 191, 191);
+    text-decoration: underline;
+}
+div {
+    display: flex;
+    background-color: orange;
+    min-height: 800px;
+    max-height: 1000px;
+    min-width: 290px;
+    max-width: 1400px;
+    margin: auto;
+    border-radius: 20px;
+}
+    
+
