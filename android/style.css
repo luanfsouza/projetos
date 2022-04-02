@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+
+}
+* h1, h2{
+    font-family: 'droid';
+}
+* p {
+    text-indent: 25px;
+}
+main {+-
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 42%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main p {
+    text-align: justify;
+    line-height: 2em;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, #45eebe, white);
+    color: #074931;
+    padding-left: 10px;
+}
+main h1 {
+    font-size: 1.8em;
+}
+body {
+    background-color: #EBE5C5;
+    display: block;
+    margin: auto;
+}
+header {
+    background-image: linear-gradient(to bottom, #0dbd6b, #074931);
+    color: white;
+    padding-bottom: 10px;
+}
+header h1, p{
+    text-align: center;
+    padding: 15px;
+}
+header h1 {
+    font-family: 'droid';
+}
+header p {
+    padding: 20px;
+}
+main > h1 {
+    margin-left: 20px;
+    padding: 10px 0px 0px 0px;
+}
+main h2 {
+    margin-left: 25px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 0px 8px 22px;
+}
+ul a {
+
+     color:white;
+     text-decoration: none;
+     padding: 6px;
+     border-radius: 5px;
+     text-decoration: none;
+     font-weight: bold;
+     transition-duration: 0.5s;
+
+
+
+}
+     ul a:hover {
+        text-decoration: underline;
+        background-color: #0CB868;
+    }
+main img {
+    width: 100%;
+}
+.externo {
+    background-color: #29f898;
+}
+.externo::after {
+    content: '\1F517';
+
+}
+.borda {
+    background-color: #074931;
+    margin-bottom: 30px;
+    margin: 0px -20px 0px -20px;
+    padding: 20PX;
+    position: relative;
+    padding-bottom: 40%;
+}
+.borda iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+span {
+    color: #1d884b;
+}
+footer {
+    background-color: #247d22;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+.bugdroid {
+    max-width: 400px;
+    display: block;
+    
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+} 
+   
+#cheguei  h2 {
+    color: rgb(255, 255, 255);
+    background-color: #1A5C37;
+}
+aside {
+    margin-top: 30px;
+    background-color: #83E1AD;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px;
+
+}
+aside h3 {
+    background-color: #276b1a;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
