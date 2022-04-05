@@ -157,3 +157,10 @@ nav {
 .contact div {
     height: 1000px;
 }
+header {
+    position: relative;
+}
+nav ul li a{
+    position: sticky;
+    top: -1px;
+}
